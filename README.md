@@ -1,6 +1,6 @@
 # Petualangan-Interaktif-Batu-Permata
-  Di suatu pertambangan ditemukan berbagai batu. Setiap batu terdiri dari berbagai unsur dan setiap unsurnya direpresentasikan sebagai karakter huruf non-kapital dari 'a' sampai 'z'. Sebuah unsur(huruf) dapat hadir beberapa kali dalam batu. Suatu unsur merupakan unsur batu permata bila setidaknya ditemukan satu kali dalam setiap batu.Diberikan N banyak batu dengan komposisi didalamnya berupa unsur-unsur. 
-Pada suatu hari seorang pengembara mendapatkan beberapa batu, kemudian dia bertemu dengan seorang ahli. Pada pertemuan tersebut, pengembara dan ahli melakukan percakapan:
+    Di suatu pertambangan ditemukan berbagai batu. Setiap batu terdiri dari berbagai unsur dan setiap unsurnya direpresentasikan sebagai karakter huruf non-kapital dari 'a' sampai 'z'. Sebuah unsur(huruf) dapat hadir beberapa kali dalam batu. Suatu unsur merupakan unsur batu permata bila setidaknya ditemukan satu kali dalam setiap batu.Diberikan N banyak batu dengan komposisi didalamnya berupa unsur-unsur. 
+    Pada suatu hari seorang pengembara mendapatkan beberapa batu, kemudian dia bertemu dengan seorang ahli. Pada pertemuan tersebut, pengembara dan ahli melakukan percakapan:
 
 Input: 
 * variabel N dengan 1<=N<=100
