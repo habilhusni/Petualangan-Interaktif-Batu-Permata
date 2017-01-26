@@ -1,0 +1,80 @@
+#Introduction
+Di suatu pertambangan ditemukan berbagai batu. Setiap batu terdiri dari berbagai unsur dan setiap unsurnya direpresentasikan sebagai karakter huruf non-kapital dari 'a' sampai 'z'. Sebuah unsur(huruf) dapat hadir beberapa kali dalam batu. Suatu unsur merupakan unsur batu permata bila setidaknya ditemukan satu kali dalam setiap batu.Diberikan N banyak batu dengan komposisi didalamnya berupa unsur-unsur. 
+Pada suatu hari seorang pengembara mendapatkan beberapa batu, kemudian dia bertemu dengan seorang ahli. Pada pertemuan tersebut, pengembara dan ahli melakukan percakapan:
+
+Input: variabel N dengan 1<=N<=100
+       setiap N terdiri dari beberapa huruf non-kapital ('a' sampai 'z') dengan 1<=banyaknya huruf<=100
+       Nama pengembara berupa string
+       Umur pengembara berupa integer
+       Nama ahli berupa string
+       Pekerjaan ahli berupa string
+       Array N batu berupa string
+
+Output: Percakapan antara seorang pengembara dengan seorang ahli
+
+
+#Pseudocode secara umum
+DEKLARASI variabel input namaPengembara, umurPengembara, namaAhli, pekerjaanAhli, arrayBatu
+BUAT FUNGSI kataUnik
+BUAT FUNGSI saringKata
+ULANGI dari index=0 sampai kurang dari jumlah arrayBatu-1 dengan pertambahan nilai 1
+     arrayBatu ke-[index+1] = saringKata arrayBatu[index] dengan arrayBatu[index+1]
+DEKLARASI objek ahli dan objek pengembara
+INSTANSIASI objek ahli dan objek pengembara
+TAMPILKAN percakapan
+
+
+#Pseudocode Fungsi kataUnik(string unik)
+DEKLARASI variabel string nonUnique dengan nilai 'unik'
+DEKLARASI variabel unique
+UBAH varibel string nonUnique menjadi array
+FILTER karakter pada nonUnique menjadi karakter yang unik (tidak ada yang sama)
+UBAH array nonUnique menjadi string
+MASUKKAN nilai nonUnique kedalam variabel unique
+KEMBALIKAN variabel unique 
+
+ 
+#Pseudocode Fungsi saringKata(String kataPertama, String kataKedua)
+DEKLARASI variabel kata3 dengan string kosong
+IF kataUnik(jumlah karakter kataPertama) lebih besar atau sama dengan kataUnik(jumlah karakter kataKedua)
+   ULANGI dari index=0 sampai index<kataUnik(jumlah karakter kataPertama) dengan pertambahan nilai 1
+         ULANGI dari index2=0 sampai index2<kataUnik(jumlah karakter kataPertama) dengan pertambahan nilai 1
+	        IF karakter ke-index kataUnik(kataPertama) sama dengan karakter ke-index2 kataUnik(kataKedua)
+		   kata3 = kata3 ditambah karakter ke-index kataUnik(kataPertama)
+		ENDIF
+ELSE IF kataUnik(jumlah karakter kataKedua) lebih besar kataUnik(jumlah karakter kataPertama)     
+       ULANGI dari index=0 sampai index<kataUnik(jumlah karakter kataKedua) dengan pertambahan nilai 1
+              ULANGI dari index2=0 sampai index2<kataUnik(jumlah karakter kataKedua) dengan pertambahan nilai 1
+	             IF karakter ke-index kataUnik(kataKedua) sama dengan karakter ke-index2 kataUnik(kataPertama)
+		        kata3 = kata3 ditambah karakter ke-index kataUnik(kataKedua)
+KEMBALIKAN nilai kata3
+ENDIF	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
