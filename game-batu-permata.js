@@ -1,8 +1,8 @@
 //masukan input
 var namaPengembara = 'Udin'; 
 var umurPengembara = 20;
-var namaAhli = 'Ngkong'
-var pekerjaanAhli = 'Tukang Peci'
+var namaAhli = 'Ngkong';
+var pekerjaanAhli = 'Tukang Peci';
 var batuBatu = ['sutu', 'kadal'];
 
 //saring kata menjadi tidak memiliki huruf yang sama
